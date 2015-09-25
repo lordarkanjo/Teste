@@ -1,0 +1,47 @@
+public class Carro{
+
+private int cilindros,
+            numeroRodas,
+            potencia,
+            passageiros;
+    
+private String marca,
+               modelo,
+               tipoCombustivel;
+
+private double preco;
+
+    public void setCilindros(){
+      this.cilindros = cilindros;
+    }
+
+
+    public void setNumeroRodas(){
+      this.numeroRodas = numeroRodas;
+    }
+
+    public void setPotencia(){
+      this.potencia = potencia;
+    }
+    
+    public void setpassageiros(){
+     this.passageiros = passageiros;
+    }
+
+
+
+
+
+  public cadastrar(){
+
+  }
+
+  public reajustarPreco(){
+  
+  }
+  
+  public imprimir(){
+  
+  }
+  
+}
