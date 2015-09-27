@@ -1,0 +1,87 @@
+package pendrive;
+
+/**
+ *
+ * @author Arkanjo
+ */
+public class PenDrive {
+
+    
+    String marca,
+           modelo;
+   
+    int     capacidade;
+    
+    double comprimento,
+           largura,
+           profundidade,
+           peso; 
+    
+    // inico dos métodos setters
+    public void setMarca(String marca){
+        this.marca = marca;
+    }
+    
+    public void setModelo(String modelo){
+        this.modelo = modelo;
+    }
+    
+    public void setCapacidade(int capacidade){
+        this.capacidade = capacidade;
+    }
+    
+    public void setComprimento(double comprimento){
+        this.comprimento = comprimento;
+    }
+    
+    public void setLargura(double largura){
+        this.largura = largura;
+    }
+    
+    public void setProfundidade(double profundidade){
+        this.profundidade = profundidade;
+    }
+    
+    public void setPeso(double peso){
+        this.peso = peso;
+    }
+    
+    //inicio dos metodos getters
+    
+    public String getMarca  (){
+        return marca;
+    } 
+    
+    public String getModelo(){
+        return modelo;
+    }
+    
+    public int getCapacidade(){
+        return capacidade;
+    }
+    
+    public double getComprimento(){
+        return comprimento;
+    }
+    
+    public double getLargura(){
+        return largura;
+    }
+    
+    public double getProfundidade(){
+        return profundidade;
+    }
+    
+    public double getPeso(){
+        return peso;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
