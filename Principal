@@ -1,13 +1,52 @@
+package pendrive;
 import java.util.Scanner;
 
-public class Teste{
-  public static void main(Sting[] args){
-  
-  Scanner entrada = new Scanner(System.in);
-  
-  Carro uno = new Carro();
-  
-  
+/**
+ *
+ * @author Arkanjo
+ */
+public class Principal {
 
-}
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+      Scanner entrada = new Scanner(System.in);
+      
+    PenDrive pen = new PenDrive();
+    
+    System.out.println("Digite a merca do pendrive:");
+    PenDrive.setMarca(entrada.nextLine());
+    
+    System.out.println("Digite o modelo");
+    PenDrive.setModelo(entrada.nextLine());
+    
+    System.out.println("Digite a capacidade:");
+    PenDrive.setCapacidade(entrada.nextInt());
+    
+    System.out.println("Digite o comprimento:");
+    PenDrive.setComprimento(entrada.nextDouble());
+    
+    System.out.println("Digite a largura:");
+    PenDrive.setLargura(entrada.nextDouble());
+    
+    System.out.println("Digite a profundidade:");
+    PenDrive.setProfundidade(entrada.nextDouble());
+    
+    System.out.println("Digite o peso");
+    PenDrive.setPeso(entrada.nextDouble());
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        
+    }
+    
 }
