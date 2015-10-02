@@ -16,25 +16,25 @@ public class Principal {
     PenDrive pen = new PenDrive();
     
     System.out.println("Digite a merca do pendrive:");
-    PenDrive.setMarca(entrada.nextLine());
+    Pen.setMarca(entrada.nextLine());
     
     System.out.println("Digite o modelo");
-    PenDrive.setModelo(entrada.nextLine());
+    Pen.setModelo(entrada.nextLine());
     
     System.out.println("Digite a capacidade:");
-    PenDrive.setCapacidade(entrada.nextInt());
+    Pen.setCapacidade(entrada.nextInt());
     
     System.out.println("Digite o comprimento:");
-    PenDrive.setComprimento(entrada.nextDouble());
+    Pen.setComprimento(entrada.nextDouble());
     
     System.out.println("Digite a largura:");
-    PenDrive.setLargura(entrada.nextDouble());
+    Pen.setLargura(entrada.nextDouble());
     
     System.out.println("Digite a profundidade:");
-    PenDrive.setProfundidade(entrada.nextDouble());
+    Pen.setProfundidade(entrada.nextDouble());
     
     System.out.println("Digite o peso");
-    PenDrive.setPeso(entrada.nextDouble());
+    Pen.setPeso(entrada.nextDouble());
     
     
     
