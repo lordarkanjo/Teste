@@ -1,11 +1,11 @@
-package pendrive;
+package exercicio;
 import java.util.Scanner;
 
 /**
  *
  * @author Arkanjo
  */
-public class Principal {
+public class Aplicacao {
 
     /**
      * @param args the command line arguments
@@ -13,7 +13,7 @@ public class Principal {
     public static void main(String[] args) {
       Scanner entrada = new Scanner(System.in);
       
-    PenDrive pen = new PenDrive();
+    PenDrive Pen = new PenDrive();
     
     System.out.println("Digite a merca do pendrive:");
     Pen.setMarca(entrada.nextLine());
@@ -36,6 +36,8 @@ public class Principal {
     System.out.println("Digite o peso");
     Pen.setPeso(entrada.nextDouble());
     
+    
+    System.out.println("Marca:"+ Pen.getMarca()+"\nModelo:" + Pen.getModelo() +"\nCapacidade:" + Pen.getCapacidade());
     
     
     
