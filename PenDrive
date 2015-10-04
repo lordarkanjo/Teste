@@ -1,4 +1,4 @@
-package pendrive;
+package exercicio;
 
 /**
  *
@@ -77,11 +77,9 @@ public class PenDrive {
     }
     
     
+  //Começo dos métodos
     
-    
-    
-    
-    
+
     
     
 }
